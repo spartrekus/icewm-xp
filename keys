@@ -1,18 +1,22 @@
+
+
+key "Super+e" rox
 key "Super+d" xterm
 
-key "Super+x" xterm
 
-key "Super+q" xterm
+key "Super+f" midori 
 
+key "Super+x"    xterm -bg black -fg grey -fa 15 -e bash 
 
-key "Super+w" xterm
-
-
+key "Super+a"    wmctrl -r :ACTIVE: -b toggle,maximized_vert,maximized_horz 
 
 
+key "Super+w"  wmctrl -c :ACTIVE: 
 
+
+key "Super+q"   xdotool getactivewindow windowminimize 
 
 key "Alt+Ctrl+t" xterm
-
+key "Alt+Ctrl+l" i3lock 
 
 
