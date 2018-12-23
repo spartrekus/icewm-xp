@@ -3,9 +3,11 @@
 key "Super+e" rox
 key "Super+r" dolphin
 
+key "Super+s" xterm -e alsamixer 
+
 key "Super+d" xterm
 
-key "Super+f" chromium  
+key "Super+f" chromium  --new-window   
 
 key "Super+x"    xterm -bg black -fg grey -fa 15 -e bash 
 
