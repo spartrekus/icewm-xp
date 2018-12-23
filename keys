@@ -1,10 +1,11 @@
 
 
 key "Super+e" rox
+key "Super+r" dolphin
+
 key "Super+d" xterm
 
-
-key "Super+f" midori 
+key "Super+f" chromium  
 
 key "Super+x"    xterm -bg black -fg grey -fa 15 -e bash 
 
@@ -17,6 +18,10 @@ key "Super+w"  wmctrl -c :ACTIVE:
 key "Super+q"   xdotool getactivewindow windowminimize 
 
 key "Alt+Ctrl+t" xterm
-key "Alt+Ctrl+l" i3lock 
+key "Alt+Ctrl+l" i3lock -i .wallpaper.jpg
+
+
+key "Super+l"  i3lock -i .wallpaper.jpg
+
 
 
