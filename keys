@@ -20,10 +20,12 @@ key "Super+w"  wmctrl -c :ACTIVE:
 key "Super+q"   xdotool getactivewindow windowminimize 
 
 key "Alt+Ctrl+t" xterm
-key "Alt+Ctrl+l" i3lock -i .wallpaper.png
 
+
+key "Alt+Ctrl+k" i3lock -i .wallpaper.png
 
 key "Super+l"   xlock -mode daisy 
+
 
 
 
