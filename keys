@@ -21,6 +21,7 @@ key "Super+q"   xdotool getactivewindow windowminimize
 
 key "Alt+Ctrl+t" xterm
 
+key "Alt+Ctrl+b"  links -g google.com
 
 key "Alt+Ctrl+k" i3lock -i .wallpaper.png
 
