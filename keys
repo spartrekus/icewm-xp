@@ -23,7 +23,9 @@ key "Alt+Ctrl+t" xterm
 key "Alt+Ctrl+l" i3lock -i .wallpaper.png
 
 
-key "Super+l"  i3lock -i .wallpaper.png
+key "Super+l"   xlock -mode daisy 
+
+
 
 
 
