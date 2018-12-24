@@ -27,8 +27,7 @@ key "Alt+Ctrl+k" i3lock -i .wallpaper.png
 
 key "Super+l"   xlock -mode daisy 
 
-
-
+key "Super+n"   nedit
 
 
 
