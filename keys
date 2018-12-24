@@ -7,8 +7,6 @@ key "Super+s" xterm -e alsamixer
 
 key "Super+d" xterm
 
-key "Super+f" chromium  --new-window   
-
 key "Super+x"    xterm -bg black -fg grey -fa 15 -e bash 
 
 key "Super+a"    wmctrl -r :ACTIVE: -b toggle,maximized_vert,maximized_horz 
@@ -21,13 +19,16 @@ key "Super+q"   xdotool getactivewindow windowminimize
 
 key "Alt+Ctrl+t" xterm
 
-key "Alt+Ctrl+b"  links -g google.com
+key "Alt+Ctrl+f"  links -g google.com
+key "Super+b" chromium  --new-window   
 
 key "Alt+Ctrl+k" i3lock -i .wallpaper.png
 
 key "Super+l"   xlock -mode daisy 
 
 key "Super+n"   nedit
+
+
 
 
 
