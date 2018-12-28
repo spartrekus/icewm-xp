@@ -28,6 +28,9 @@ key "Super+l"   xlock -mode daisy
 
 key "Super+n"   nedit
 
+key "Pause"   scrot screenshot.png
+
+
 
 
 
