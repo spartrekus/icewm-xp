@@ -5,15 +5,11 @@ key "Super+r" dolphin
 
 key "Super+s" xterm -e alsamixer 
 
-key "Super+d" xterm
-
 key "Super+x"    xterm -bg black -fg grey -fa 15 -e bash 
 
 key "Super+a"    wmctrl -r :ACTIVE: -b toggle,maximized_vert,maximized_horz 
 
-
 key "Super+w"  wmctrl -c :ACTIVE: 
-
 
 key "Super+q"   xdotool getactivewindow windowminimize 
 
@@ -25,6 +21,8 @@ key "Super+b" chromium  --new-window
 key "Alt+Ctrl+k" i3lock -i .wallpaper.png
 
 key "Super+l"   xlock -mode daisy 
+
+key "Super+c"   x48
 
 key "Super+n"   nedit
 
