@@ -5,7 +5,7 @@ key "Super+r" dolphin
 
 key "Super+s" xterm -e alsamixer 
 
-key "Super+x"    xterm -bg black -fg grey -fa 15 -e bash 
+key "Super+x"    xterm -bg black -fg green -fn DejaVuMono -fa 50 -fs 12 -e bash 
 
 key "Super+a"    wmctrl -r :ACTIVE: -b toggle,maximized_vert,maximized_horz 
 
