@@ -16,7 +16,8 @@ key "Super+q"   xdotool getactivewindow windowminimize
 key "Alt+Ctrl+t" xterm
 
 key "Alt+Ctrl+f"  links -g google.com
-key "Super+b" chromium  --new-window   
+
+key "Super+b" nconfig chromium 
 
 key "Alt+Ctrl+k" i3lock -i .wallpaper.png
 
