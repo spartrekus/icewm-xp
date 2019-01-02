@@ -17,7 +17,7 @@ key "Alt+Ctrl+t" xterm
 
 key "Alt+Ctrl+f"  links -g google.com
 
-key "Super+b" nconfig chromium 
+key "Super+b"  chromium 
 
 key "Alt+Ctrl+k" i3lock -i .wallpaper.png
 
