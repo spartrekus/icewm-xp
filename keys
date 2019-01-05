@@ -30,6 +30,9 @@ key "Super+n"   nedit
 key "Pause"   scrot screenshot.png
 
 
+key "Print"   cd ; nconfig ip > ip.log  ;  xmessage -file ip.log
+
+
 
 
 
