@@ -8,7 +8,7 @@ prog xterm xterm xterm -bg black -fg yellow -fa 10 -e bash
 # prog rxvt xterm rxvt -bg black -cr green -fg white -C -fn 9x15 -sl 500
 separator
 prog WebBrowser /usr/local/share/xfe/icons/windows-theme/html_16x16.png links -g google.com
-prog Chrome     /usr/share/xfe/icons/windows-theme/html_16x16.png links -g google.com
+prog Chrome     /usr/share/xfe/icons/windows-theme/html_16x16.png links2 -g google.com
 prog Files /usr/local/share/xfe/icons/windows-theme/minifolder.png rox 
 prog FileManager /usr/local/share/xfe/icons/gnome-theme/vertpanels.png xfe 
 separator
@@ -16,7 +16,7 @@ prog XFW /usr/local/share/xfe/icons/gnome-theme/xfw.png xfw
 prog XFI /usr/local/share/xfe/icons/gnome-theme/xfi.png xfi 
 prog NEDIT /usr/local/share/xfe/icons/gnome-theme/text_16x16.png nedit 
 separator
-prog Screen xterm xterm -bg black -fg yellow -fa 10 -e screen -x 
+prog Samba xterm xterm -bg black -fg yellow -fa 10 -e nsamba  
 separator
 # menuprog Gnome folder icewm-menu-gnome2 --list 
 # menuprog KDE folder icewm-menu-gnome --list 
