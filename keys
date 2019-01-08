@@ -32,10 +32,7 @@ key "Pause"   scrot screenshot.png
 
 key "Print"   nconfig xip
 
-
-
-
-
+key "Super+d"   rox sshfs 
 
 
 
