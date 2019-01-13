@@ -34,5 +34,7 @@ key "Print"   nconfig xip
 
 key "Super+d"   rox sshfs 
 
+key XF86AudioLowerVolume      amixer -q sset Master 3%-
 
+key XF86AudioRaiseVolume      amixer -q sset Master 3%+
 
