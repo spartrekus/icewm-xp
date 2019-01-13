@@ -38,3 +38,8 @@ key XF86AudioLowerVolume      amixer -q sset Master 3%-
 
 key XF86AudioRaiseVolume      amixer -q sset Master 3%+
 
+
+key XF86Calculator      amixer -q sset Master 3%-
+
+key XF86Explorer      amixer -q sset Master 3%+
+
