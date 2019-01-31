@@ -32,7 +32,8 @@ key "Pause"   scrot screenshot.png
 
 key "Print"   nconfig xip
 
-key "Super+d"   rox sshfs 
+key "Super+d"   rox workspace 
+
 
 key XF86AudioLowerVolume      amixer -q sset Master 3%-
 
