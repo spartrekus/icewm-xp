@@ -5,7 +5,7 @@ key "Super+r" dolphin
 
 key "Super+s" xterm -e alsamixer 
 
-key "Super+X"    xterm -bg black -fg yellow -fn DejaVuMono -fa 50 -fs 12 -e bash 
+key "Super+Shift+x"    xterm -bg black -fg yellow -fn DejaVuMono -fa 50 -fs 12 -e bash 
 key "Super+x"    xterm -bg black -fg green -fn DejaVuMono -fa 50 -fs 12 -e bash 
 
 
@@ -29,7 +29,7 @@ key "Super+l"   xlock -mode daisy
 key "Super+n"   nedit
 
 
-key "Print"   scrot screenshot-` nconfig time  `.png
+key "Print"   scrot screenshot-"$( nconfig time)".png
 
 key "Pause"   nconfig xip
 
