@@ -18,7 +18,7 @@ key "Super+l"   xlock -mode daisy
 
 key "Super+n"   nedit
 
-key "Print"   scrot '%Y-%m-%d_$wx$h.png'  
+key "Print"   scrot '%Y%m%d%T-$wx$h-screenshot.png'  
 key "Pause"   nconfig xip
 
 key XF86AudioLowerVolume      amixer -q sset Master 3%-
