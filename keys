@@ -5,7 +5,9 @@ key "Super+r" dolphin
 
 key "Super+s" xterm -e alsamixer 
 
+key "Super+X"    xterm -bg black -fg yellow -fn DejaVuMono -fa 50 -fs 12 -e bash 
 key "Super+x"    xterm -bg black -fg green -fn DejaVuMono -fa 50 -fs 12 -e bash 
+
 
 key "Super+a"    wmctrl -r :ACTIVE: -b toggle,maximized_vert,maximized_horz 
 
@@ -23,16 +25,14 @@ key "Alt+Ctrl+k" i3lock -i .wallpaper.png
 
 key "Super+l"   xlock -mode daisy 
 
-key "Super+c"   x48
 
 key "Super+n"   nedit
 
-key "Pause"   scrot screenshot.png
 
+key "Print"   scrot screenshot-` nconfig time  `.png
 
-key "Print"   nconfig xip
+key "Pause"   nconfig xip
 
-key "Super+d"   rox workspace 
 
 
 key XF86AudioLowerVolume      amixer -q sset Master 3%-
