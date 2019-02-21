@@ -3,8 +3,8 @@
 key "Super+e" rox
 
 key "Super+s" xterm -e alsamixer 
-key "Super+y"    xterm -bg black -fg yellow -fn DejaVuMono -fa 50 -fs 12 -e bash 
-key "Super+x"    xterm -bg black -fg green -fn DejaVuMono -fa 50 -fs 12 -e bash 
+key "Super+y"    xterm -bg black -fg yellow -fn DejaVuMono -fa 50 -fs 12  
+key "Super+x"    xterm -bg black -fg green -fn DejaVuMono -fa 50 -fs 12 
 
 
 key "Super+a"    wmctrl -r :ACTIVE: -b toggle,maximized_vert,maximized_horz 
