@@ -17,6 +17,8 @@ key "Super+l"   xlock -mode daisy
 
 key "Super+n"   nedit
 
+key "Super+b"   fledit
+
 key "Super+Print"   scrot -s '%Y%m%d%H%M%S-$wx$h-screenshot-area.png'  
 
 key "Print"   scrot '%Y%m%d%H%M%S-$wx$h-screenshot.png'  
