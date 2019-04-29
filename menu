@@ -10,7 +10,7 @@ separator
 prog FilemanRox   /usr/local/share/xfe/icons/windows-theme/html_16x16.png rox  
 separator
 prog WebBrowser /usr/local/share/xfe/icons/windows-theme/html_16x16.png links -g google.com
-prog Chromium     /usr/share/xfe/icons/windows-theme/html_16x16.png chromium-browser -g google.com
+prog Chromium     /usr/share/xfe/icons/windows-theme/html_16x16.png chromium-browser    
 prog Files /usr/local/share/xfe/icons/windows-theme/minifolder.png rox 
 prog FileManager /usr/local/share/xfe/icons/gnome-theme/vertpanels.png xfe 
 separator
