@@ -7,8 +7,10 @@
 prog xterm xterm xterm -bg black -fg yellow -fa 10 -e bash
 # prog rxvt xterm rxvt -bg black -cr green -fg white -C -fn 9x15 -sl 500
 separator
+prog FilemanRox   /usr/local/share/xfe/icons/windows-theme/html_16x16.png rox  
+separator
 prog WebBrowser /usr/local/share/xfe/icons/windows-theme/html_16x16.png links -g google.com
-prog Chrome     /usr/share/xfe/icons/windows-theme/html_16x16.png links2 -g google.com
+prog Chromium     /usr/share/xfe/icons/windows-theme/html_16x16.png chromium-browser -g google.com
 prog Files /usr/local/share/xfe/icons/windows-theme/minifolder.png rox 
 prog FileManager /usr/local/share/xfe/icons/gnome-theme/vertpanels.png xfe 
 separator
