@@ -4,8 +4,7 @@
 # since modifications to this file will be discarded when you
 # (re)install icewm.
 #
-prog xterm xterm xterm -bg black -fg yellow -fa 10 -e sh
-prog xterm xterm xterm -bg black -fg yellow -fa 10 -e /usr/local/bin/ndesk  
+prog xterm xterm xterm -bg black -fg yellow -fa 10 -e sh 
 prog rxvt xterm rxvt -bg black -cr green -fg white -C -fn 9x15 -sl 500
 separator
 prog FilemanRox   /usr/local/share/xfe/icons/windows-theme/html_16x16.png rox  
