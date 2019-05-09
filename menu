@@ -5,9 +5,10 @@
 # (re)install icewm.
 #
 prog xterm xterm xterm -bg black -fg yellow -fa 10 -e sh 
+prog Clock   /usr/local/share/xclock    xcatclock 
 prog rxvt xterm rxvt -bg black -cr green -fg white -C -fn 9x15 -sl 500
 separator
-prog FilemanRox   /usr/local/share/xfe/icons/windows-theme/html_16x16.png rox  
+prog FilemanRox   /usr/local/share/xfe/icons/windows-theme/html_16x16.png    rox   
 separator
 prog WebBrowser /usr/local/share/xfe/icons/windows-theme/html_16x16.png links -g google.com
 prog Chromium     /usr/share/xfe/icons/windows-theme/html_16x16.png chromium-browser    
