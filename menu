@@ -9,10 +9,10 @@ prog Clock   /usr/local/share/xclock    xcatclock
 prog rxvt xterm rxvt -bg black -cr green -fg white -C -fn 9x15 -sl 500
 separator
 prog Fileman   /usr/local/share/xfe/icons/windows-theme/html_16x16.png    rox   
-prog Dillo   /usr/local/share/xfe/icons/windows-theme/html_16x16.png    dillo google.com    
 separator
 prog Links /usr/local/share/xfe/icons/windows-theme/html_16x16.png links -g google.com
 prog Chromium     /usr/share/xfe/icons/windows-theme/html_16x16.png chromium-browser    
+prog Dillo   /usr/local/share/xfe/icons/windows-theme/html_16x16.png    dillo google.com    
 prog Files /usr/local/share/xfe/icons/windows-theme/minifolder.png rox 
 prog FileManager /usr/local/share/xfe/icons/gnome-theme/vertpanels.png xfe 
 separator
