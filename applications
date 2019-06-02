@@ -6,4 +6,14 @@ separator
 prog Rox   /usr/local/share/xfe/icons/windows-theme/html_16x16.png    rox   
 separator
 prog Mail  mutt.png    claws-mail    
-
+separator
+prog xterm xterm xterm -bg black -fg yellow -fa 10 -e sh 
+prog xclock   /usr/local/share/xclock    xclock 
+separator
+prog Rox   /usr/local/share/xfe/icons/windows-theme/html_16x16.png    rox   
+separator
+prog Links /usr/local/share/xfe/icons/windows-theme/html_16x16.png links -g google.com
+prog Chromium     /usr/share/xfe/icons/windows-theme/html_16x16.png chromium-browser    
+prog Dillo   /usr/local/share/xfe/icons/windows-theme/html_16x16.png    dillo google.com    
+prog NEDIT /usr/local/share/xfe/icons/gnome-theme/text_16x16.png nedit 
+prog FLEDIT /usr/local/share/xfe/icons/gnome-theme/text_16x16.png /usr/local/bin/fledit  
