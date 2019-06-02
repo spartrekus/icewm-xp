@@ -1,7 +1,7 @@
 
 prog Prboom   /usr/local/bin/prboom-plus        prboom-plus
 prog Boom     /usr/local/bin/prboom-plus    prboom-plus  
-prog xdemineur     /usr/local/bin/xdemineur    xdemineur
+prog xdemineur     /usr/games/xdemineur    /usr/games/xdemineur
 
 
 
