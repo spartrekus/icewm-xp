@@ -17,6 +17,7 @@ prog kodi   /usr/local/share/kodi     kodi
 separator
 # menuprog Gnome folder icewm-menu-gnome2 --list 
 # menuprog KDE folder icewm-menu-gnome --list    
+menufile accessories folder accessories
 menufile applications folder applications
 menufile programs folder programs
 menufile tool_bar folder toolbar
