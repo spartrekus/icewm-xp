@@ -13,7 +13,7 @@ prog Dillo   /usr/local/share/xfe/icons/windows-theme/html_16x16.png    dillo go
 prog NEDIT /usr/local/share/xfe/icons/gnome-theme/text_16x16.png nedit 
 prog FLEDIT /usr/local/share/xfe/icons/gnome-theme/text_16x16.png /usr/local/bin/fledit  
 separator
-prog Kodi xterm xterm -bg black -fg yellow -fa 10 -e kodi  
+prog kodi   /usr/local/share/kodi     kodi 
 separator
 # menuprog Gnome folder icewm-menu-gnome2 --list 
 # menuprog KDE folder icewm-menu-gnome --list    
