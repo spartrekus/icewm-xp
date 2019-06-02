@@ -1,31 +1,22 @@
 # This is an example for IceWM's menu definition file.
-#
 # Place your variants in /usr/local/share/icewm or in $HOME/.icewm
 # since modifications to this file will be discarded when you
 # (re)install icewm.
-#
 prog xterm xterm xterm -bg black -fg yellow -fa 10 -e sh 
-prog Clock   /usr/local/share/xclock    xcatclock 
-prog rxvt xterm rxvt -bg black -cr green -fg white -C -fn 9x15 -sl 500
+prog xclock   /usr/local/share/xclock    xclock 
 separator
-prog Fileman   /usr/local/share/xfe/icons/windows-theme/html_16x16.png    rox   
+prog Rox   /usr/local/share/xfe/icons/windows-theme/html_16x16.png    rox   
 separator
 prog Links /usr/local/share/xfe/icons/windows-theme/html_16x16.png links -g google.com
 prog Chromium     /usr/share/xfe/icons/windows-theme/html_16x16.png chromium-browser    
 prog Dillo   /usr/local/share/xfe/icons/windows-theme/html_16x16.png    dillo google.com    
-prog Files /usr/local/share/xfe/icons/windows-theme/minifolder.png rox 
-prog FileManager /usr/local/share/xfe/icons/gnome-theme/vertpanels.png xfe 
-separator
-prog XFW /usr/local/share/xfe/icons/gnome-theme/xfw.png xfw 
-prog XFI /usr/local/share/xfe/icons/gnome-theme/xfi.png xfi 
 prog NEDIT /usr/local/share/xfe/icons/gnome-theme/text_16x16.png nedit 
 prog FLEDIT /usr/local/share/xfe/icons/gnome-theme/text_16x16.png /usr/local/bin/fledit  
 separator
 prog Kodi xterm xterm -bg black -fg yellow -fa 10 -e kodi  
 separator
 # menuprog Gnome folder icewm-menu-gnome2 --list 
-# menuprog KDE folder icewm-menu-gnome --list 
-prog Mail  mutt.png    claws-mail    
+# menuprog KDE folder icewm-menu-gnome --list    
 menufile applications folder apps
 menufile programs folder programs
 menufile tool_bar folder toolbar
