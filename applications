@@ -1,3 +1,7 @@
-
+prog xterm xterm xterm -bg black -fg yellow -fa 10 -e sh 
+prog xclock   /usr/local/share/xclock    xclock 
+separator
+prog Rox   /usr/local/share/xfe/icons/windows-theme/html_16x16.png    rox   
+separator
 prog Mail  mutt.png    claws-mail    
 
