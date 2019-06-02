@@ -4,4 +4,5 @@ prog AddressBook   /usr/local/bin/abook   xterm -e abook
 prog Calculator   /usr/local/bin/xcalc   xcalc
 prog notepad   /usr/local/bin/notepad   notepad    
 prog fledit    /usr/local/bin/fledit   fledit 
+prog nedit    /usr/local/bin/nedit    nedit 
 prog Paint   /usr/local/bin/xpaint   xpaint
