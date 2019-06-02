@@ -1,0 +1,4 @@
+
+prog Prboom   /usr/local/bin/prboom-plus        prboom-plus
+prog Boom     /usr/local/bin/prboom-plus    prboom-plus  
+
