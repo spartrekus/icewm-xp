@@ -2,8 +2,7 @@
 # Place your variants in /usr/local/share/icewm or in $HOME/.icewm
 # since modifications to this file will be discarded when you
 # (re)install icewm.
-separator
-prog kodi   /usr/local/share/kodi     kodi 
+
 separator
 # menuprog Gnome folder icewm-menu-gnome2 --list 
 # menuprog KDE folder icewm-menu-gnome --list    
