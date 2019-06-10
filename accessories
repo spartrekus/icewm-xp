@@ -1,4 +1,5 @@
 
+prog rox    /usr/local/bin/rox    rox  
 prog xclock    /usr/local/bin/xclock    xclock  
 prog AddressBook   /usr/local/bin/abook   xterm -e abook
 prog Calculator   /usr/local/bin/xcalc   xcalc
