@@ -2,6 +2,9 @@
 separator
 prog rox    /usr/local/bin/rox    rox  
 prog xclock    /usr/local/bin/xclock    xclock  
+prog xclock   /usr/local/share/xclock    xclock 
+prog xclock   /usr/bin/xclock    xclock 
+prog naclock   /usr/local/bin/naclock    xterm -e naclock 
 prog xcatclock    /usr/local/bin/xcatclock    xcatclock  
 prog AddressBook   /usr/local/bin/abook   xterm -e abook
 prog Calculator   /usr/local/bin/xcalc   xcalc
