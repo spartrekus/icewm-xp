@@ -1,6 +1,7 @@
 prog xterm xterm xterm -bg black -fg yellow -fa 10 -e sh 
 prog xclock   /usr/local/share/xclock    xclock 
 prog xclock   /usr/bin/xclock    xclock 
+prog naclock   /usr/local/bin/naclock    xterm -e naclock 
 prog fledit   /usr/local/bin/fledit    fledit   
 separator
 prog Rox   /usr/local/share/xfe/icons/windows-theme/html_16x16.png    rox   
@@ -14,7 +15,9 @@ separator
 prog Rox   /usr/local/share/xfe/icons/windows-theme/html_16x16.png    rox   
 separator
 prog Links /usr/local/share/xfe/icons/windows-theme/html_16x16.png links -g google.com
-prog Chromium     /usr/share/xfe/icons/windows-theme/html_16x16.png chromium-browser    
+prog Chromium-browser     /usr/local/share/chromium-browser chromium-browser  
+prog Chromium     /usr/local/share/chromium chromium
+prog Chrome       /usr/local/share/chrome chrome   
 prog Dillo   /usr/local/share/xfe/icons/windows-theme/html_16x16.png    dillo google.com    
 prog NEDIT /usr/local/share/xfe/icons/gnome-theme/text_16x16.png nedit 
 prog FLEDIT /usr/local/share/xfe/icons/gnome-theme/text_16x16.png /usr/local/bin/fledit  
