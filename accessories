@@ -1,10 +1,15 @@
 
 separator
+prog lfm   /usr/local/bin/lfm   xterm -e lfm
+prog mcalc   /usr/local/bin/mcalc   xterm -e mcalc
+prog naclock   /usr/local/bin/naclock    xterm -e naclock 
+prog abook   /usr/local/bin/abook   xterm -e abook
+separator
 prog rox    /usr/local/bin/rox    rox  
+separator
 prog xclock    /usr/local/bin/xclock    xclock  
 prog xclock   /usr/local/share/xclock    xclock 
 prog xclock   /usr/bin/xclock    xclock 
-prog naclock   /usr/local/bin/naclock    xterm -e naclock 
 prog xcatclock    /usr/local/bin/xcatclock    xcatclock  
 prog AddressBook   /usr/local/bin/abook   xterm -e abook
 prog Calculator   /usr/local/bin/xcalc   xcalc
