@@ -11,6 +11,7 @@ prog mutt  mutt    xterm -bg black -fg yellow -fa 10 -e mutt
 separator
 prog xterm xterm xterm -bg black -fg yellow -fa 10 -e sh 
 prog xclock   /usr/local/share/xclock    xclock 
+prog claws-mail  claws-mail   claws-mail 
 separator
 prog Rox   /usr/local/share/xfe/icons/windows-theme/html_16x16.png    rox   
 separator
