@@ -16,6 +16,8 @@ prog screen  screen  xterm -e screen -x
 separator
 prog Rox   /usr/local/share/xfe/icons/windows-theme/html_16x16.png    rox   
 separator
+prog fltkdoc  fltkdoc   fltkdoc
+separator
 prog Links /usr/local/share/xfe/icons/windows-theme/html_16x16.png links -g google.com
 prog Chromium-browser     /usr/local/share/chromium-browser chromium-browser  
 prog Chromium     /usr/local/share/chromium chromium
