@@ -4,6 +4,7 @@ prog ndesk   ndesk   xterm -e ndesk
 prog mcalc   /usr/local/bin/mcalc   xterm -e mcalc
 prog naclock   /usr/local/bin/naclock    xterm -e naclock 
 prog abook   /usr/local/bin/abook   xterm -e abook
+prog calendar   /usr/local/bin/calendar   xterm -e ' cal ; read tx '
 separator
 prog rox    /usr/local/bin/rox    rox  
 separator
