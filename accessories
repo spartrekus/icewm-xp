@@ -21,5 +21,5 @@ prog Paint   /usr/local/bin/xpaint   xpaint
 prog xclock   /usr/bin/xclock    xclock 
 prog leafpad    /usr/local/share/leafpad     leafpad 
 separator
-prog i3lock    i3lock     i3lock 
+prog i3lock    i3lock     i3lock -i .wallpaper.png 
 separator
