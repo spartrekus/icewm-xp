@@ -1,5 +1,6 @@
 
 separator
+prog xterm   xterm xterm 
 prog ndesk   ndesk   xterm -e ndesk
 prog mcalc   /usr/local/bin/mcalc   xterm -e mcalc
 prog naclock   /usr/local/bin/naclock    xterm -e naclock 
