@@ -1,12 +1,6 @@
 prog ndesk   ndesk   xterm -e ndesk
 prog dosbox   dosbox   xterm -e dodbox
-prog dosbox   dosbox   xterm -e dosbox
 prog battlechess     dosbox    xterm -e "cd ; cd games ; cd bchess ; sh run.sh "
 prog win31     dosbox    xterm -e "cd ; cd games ; cd win31 ; sh run.sh "
-prog Prboom   /usr/local/bin/prboom-plus        prboom-plus
-prog Boom     /usr/local/bin/prboom-plus    prboom-plus  
-prog xdemineur     /usr/games/xdemineur    /usr/games/xdemineur
-prog battlechess     dosbox    cd ; cd games ; cd bchess ; sh run.sh 
-prog win31     dosbox    cd ; cd games ; cd win31 ; sh run.sh 
 
 
