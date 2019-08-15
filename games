@@ -4,4 +4,4 @@ prog battlechess     dosbox    xterm -e "cd ; cd games ; cd bchess ; sh run.sh "
 prog win31     dosbox    xterm -e "cd ; cd games ; cd win31 ; sh run.sh "
 prog win31et4k     dosbox    xterm -e "cd ; cd games ; cd win31et4k ; sh run.sh "
 prog freedos     dosbox    xterm -e "cd ; cd games ; cd freedos ; sh run.sh "
-
+prog windos     dosbox    xterm -e "cd ; cd games ; cd windos ; sh run.sh "
